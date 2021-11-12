@@ -37,6 +37,7 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
 
     //firebase
     implementation platform('com.google.firebase:firebase-bom:29.0.0')
@@ -45,4 +46,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:20.0.0'
     implementation 'com.google.firebase:firebase-messaging:23.0.0'
     implementation 'com.google.firebase:firebase-analytics:20.0.0'
+
+    //extra
+    implementation 'com.rengwuxian.materialedittext:library:2.1.4'
 }
