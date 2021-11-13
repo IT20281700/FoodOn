@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/MainThemee">
         <activity
+            android:name=".SignUp"
+            android:exported="false" />
+        <activity
             android:name=".DeliveryFoodPanel"
             android:exported="true" />
         <activity
